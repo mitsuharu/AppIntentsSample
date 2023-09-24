@@ -14,9 +14,8 @@
 		9B0A09A62ABE84B2009EF426 /* AppIntentsSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A09A52ABE84B2009EF426 /* AppIntentsSampleTests.swift */; };
 		9B0A09B02ABE84B2009EF426 /* AppIntentsSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A09AF2ABE84B2009EF426 /* AppIntentsSampleUITests.swift */; };
 		9B0A09B22ABE84B2009EF426 /* AppIntentsSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A09B12ABE84B2009EF426 /* AppIntentsSampleUITestsLaunchTests.swift */; };
-		9B0A09BF2ABE84CB009EF426 /* BakufuType+AppIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A09BE2ABE84CB009EF426 /* BakufuType+AppIntents.swift */; };
+		9B0A09BF2ABE84CB009EF426 /* BakufuType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A09BE2ABE84CB009EF426 /* BakufuType.swift */; };
 		9B0A09C12ABEBDC7009EF426 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A09C02ABEBDC7009EF426 /* ViewModel.swift */; };
-		9B0A09C32ABEDDB4009EF426 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A09C22ABEDDB4009EF426 /* Model.swift */; };
 		9B0A09C62ABEF508009EF426 /* OpenBakufu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A09C52ABEF508009EF426 /* OpenBakufu.swift */; };
 		9B0A09C82ABEF568009EF426 /* OpenBakufuWithShogun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A09C72ABEF568009EF426 /* OpenBakufuWithShogun.swift */; };
 		9B0A09CA2ABEF89A009EF426 /* IntentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A09C92ABEF89A009EF426 /* IntentProvider.swift */; };
@@ -52,9 +51,8 @@
 		9B0A09AB2ABE84B2009EF426 /* AppIntentsSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppIntentsSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0A09AF2ABE84B2009EF426 /* AppIntentsSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntentsSampleUITests.swift; sourceTree = "<group>"; };
 		9B0A09B12ABE84B2009EF426 /* AppIntentsSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntentsSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9B0A09BE2ABE84CB009EF426 /* BakufuType+AppIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BakufuType+AppIntents.swift"; sourceTree = "<group>"; };
+		9B0A09BE2ABE84CB009EF426 /* BakufuType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakufuType.swift; sourceTree = "<group>"; };
 		9B0A09C02ABEBDC7009EF426 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		9B0A09C22ABEDDB4009EF426 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		9B0A09C52ABEF508009EF426 /* OpenBakufu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenBakufu.swift; sourceTree = "<group>"; };
 		9B0A09C72ABEF568009EF426 /* OpenBakufuWithShogun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenBakufuWithShogun.swift; sourceTree = "<group>"; };
 		9B0A09C92ABEF89A009EF426 /* IntentProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentProvider.swift; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 			children = (
 				9B0A09942ABE84AF009EF426 /* AppIntentsSampleApp.swift */,
 				9B0A09962ABE84AF009EF426 /* ContentView.swift */,
-				9B0A09C22ABEDDB4009EF426 /* Model.swift */,
 				9B0A09C02ABEBDC7009EF426 /* ViewModel.swift */,
 				9B0A09982ABE84B1009EF426 /* Assets.xcassets */,
 				9B0A09C42ABEF4F2009EF426 /* AppIntents */,
@@ -149,7 +146,7 @@
 		9B0A09C42ABEF4F2009EF426 /* AppIntents */ = {
 			isa = PBXGroup;
 			children = (
-				9B0A09BE2ABE84CB009EF426 /* BakufuType+AppIntents.swift */,
+				9B0A09BE2ABE84CB009EF426 /* BakufuType.swift */,
 				9B0A09C92ABEF89A009EF426 /* IntentProvider.swift */,
 				9B0A09CD2ABEFD89009EF426 /* OpenApp.swift */,
 				9B0A09C52ABEF508009EF426 /* OpenBakufu.swift */,
@@ -291,8 +288,7 @@
 			files = (
 				9B0A09CC2ABEF9DB009EF426 /* OutoutBakufu.swift in Sources */,
 				9B0A09CA2ABEF89A009EF426 /* IntentProvider.swift in Sources */,
-				9B0A09C32ABEDDB4009EF426 /* Model.swift in Sources */,
-				9B0A09BF2ABE84CB009EF426 /* BakufuType+AppIntents.swift in Sources */,
+				9B0A09BF2ABE84CB009EF426 /* BakufuType.swift in Sources */,
 				9B0A09972ABE84AF009EF426 /* ContentView.swift in Sources */,
 				9B0A09C62ABEF508009EF426 /* OpenBakufu.swift in Sources */,
 				9B0A09C12ABEBDC7009EF426 /* ViewModel.swift in Sources */,
@@ -457,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppIntentsSample/Preview Content\"";
+				DEVELOPMENT_TEAM = X2E52A945M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -485,6 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppIntentsSample/Preview Content\"";
+				DEVELOPMENT_TEAM = X2E52A945M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

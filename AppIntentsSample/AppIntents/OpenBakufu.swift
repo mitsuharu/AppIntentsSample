@@ -25,16 +25,4 @@ struct OpenBakufu: AppIntent {
     static var parameterSummary: some ParameterSummary {
         Summary("Open \(\.$bakufu)")
     }
-
 }
-
-//// アプリの事前設定されたショートカットを提供する
-//struct OpenDemoShortcuts: AppShortcutsProvider {
-//    static var appShortcuts: [AppShortcut] {
-//        AppShortcut(
-//            intent: OpenBakufu(), phrases: []
-//            )
-//    }
-//}
-
-
